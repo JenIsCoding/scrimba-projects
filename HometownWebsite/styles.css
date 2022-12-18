@@ -1,0 +1,189 @@
+/* My own palette: 
+https://coolors.co/030000-c9a282-db901e-ffffff-ca9b6d-341201-dbbfab-4e2b02-e58e37 
+*/
+
+/* Google font: 
+- Playfair Display, serif
+- Fjalla One, sans-serif
+- Cormorant Garamond, serif
+*/
+
+/* BODY */
+
+body {
+    margin: 0px auto;
+    text-align: center;
+    width: 900px;
+}
+
+/* HEADER SECTION */
+
+#header{
+    margin: 0px auto 0px auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/img/header-img.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+#main-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 250%;
+    color: #030000;
+    text-shadow: 2px 2px #c9a282; 
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px; 
+    padding: 3px 12px 5px 12px;
+    margin-top: 30px;
+}
+
+#description{
+    background-color: rgba(219, 144, 30, 0.5); /* 0.5 is opacity at 50% */
+    width: 900px;
+    margin: 150px 0px 30px 0px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #030000;
+    text-shadow: 0px 1px white;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    background-color: #CA9B6D;
+    color: #341201;
+}
+
+.activities-small-title{
+    padding-top: 2px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 120%;
+    background-color: #341201; 
+    border-radius: 8px;
+    color: #DBBFAB;
+}
+
+.activities-descrip{
+    text-align: justify;
+    font-size: 120%;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.emphasize{
+    font-style: italic;
+}
+
+/* CONTAINER SECTION */
+
+#container-title{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 150%;
+}
+
+.sub-container{
+    display: flex;
+    background-color: #CA9B6D;
+}
+
+.activities-section{
+    width: 250px;
+    height: fit-content;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.no-space{
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.img-activities{
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+#img-activity1{
+    background-image: url(images/img/activity1-shown.jpg);
+}
+
+#img-activity1:hover{
+    background-image: url(images/img/activity1-hide.jpg);
+}
+
+#img-activity2{
+    background-image: url(images/img/activity2-shown.jpg);
+}
+
+#img-activity2:hover{
+    background-image: url(images/img/activity2-hide.jpg);
+}
+ 
+#img-activity3{
+    background-image: url(images/img/activity3-shown.jpg);
+}
+
+#img-activity3:hover{
+    background-image: url(images/img/activity3-hide.jpg);
+}
+    
+/* GUIDE SECTION  */
+
+#guide{
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-color: #4E2B02;
+    color: #e58e37;
+    font-size: 120%;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#guide-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 150%;
+    margin-top: 0px;
+    color: #e58e37;
+}
+
+#container-guide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 660px;
+    border-width: 1px 10px 10px 10px;
+    border-color:#db901e;
+    border-style: solid;
+}
+
+.card-img {
+    width: 200px;
+}
+
+.card-text{
+    width: 400px;
+    text-align: justify;
+    margin-right: 30px;
+}
