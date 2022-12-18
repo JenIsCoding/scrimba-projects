@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(images/img/header-img.jpg);
+    background-image: url(images/header-img.jpg);
     background-size: cover;
     height: 400px;
 }
@@ -120,27 +120,27 @@ body {
 }
 
 #img-activity1{
-    background-image: url(images/img/activity1-shown.jpg);
+    background-image: url(images/activity1-shown.jpg);
 }
 
 #img-activity1:hover{
-    background-image: url(images/img/activity1-hide.jpg);
+    background-image: url(images/activity1-hide.jpg);
 }
 
 #img-activity2{
-    background-image: url(images/img/activity2-shown.jpg);
+    background-image: url(images/activity2-shown.jpg);
 }
 
 #img-activity2:hover{
-    background-image: url(images/img/activity2-hide.jpg);
+    background-image: url(images/activity2-hide.jpg);
 }
  
 #img-activity3{
-    background-image: url(images/img/activity3-shown.jpg);
+    background-image: url(images/activity3-shown.jpg);
 }
 
 #img-activity3:hover{
-    background-image: url(images/img/activity3-hide.jpg);
+    background-image: url(images/activity3-hide.jpg);
 }
     
 /* GUIDE SECTION  */
